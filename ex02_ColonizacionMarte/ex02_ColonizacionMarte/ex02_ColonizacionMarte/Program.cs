@@ -43,8 +43,6 @@ El programa debe:
 
 - Debe tener control de excepciones en caso de se presenten errores por formato inválido y 
   posibles divisiones por cero.
-//papitas y pizza
-
 
 */
 
@@ -89,6 +87,10 @@ namespace ColonizacionMarte
             {
                 Console.Write("\nIngresa el destino para el lanzamiento {0} (A,E,U): ", totalLanzamientos + 1);
                 destino = Console.ReadLine().ToUpper();
+
+
+                //Proceso de documentación para Proyecto 5
+
 
                 //verificamos que el destino sea válido
                 if (destino == "A" || destino == "E" || destino == "U")
