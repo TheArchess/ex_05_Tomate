@@ -57,7 +57,7 @@ namespace ColonizacionMarte
         static void Main(string[] args)
         {
             Console.WriteLine("Colonización a Marte - Envío de material a las planicies");
-            Console.WriteLine("Se realizarán 15 lanzamientos de materiales necesarios para la colonización,");
+            Console.WriteLine("Se realizarán 120 lanzamientos de materiales necesarios para la colonización,");
             Console.WriteLine("que estarán ubicados en las planicies(A)cidalia, (E)lysium y (U)topia.");
             Console.WriteLine("Cada lanzamiento tiene un cargamento de hasta 10.000 kg.\n");
 
@@ -89,8 +89,7 @@ namespace ColonizacionMarte
             {
                 Console.Write("\nIngresa el destino para el lanzamiento {0} (A,E,U): ", totalLanzamientos + 1);
                 destino = Console.ReadLine().ToUpper();
-
-                //verificamos que el destino sea válido
+              //vadgvajvcsvbjhcv
                 if (destino == "A" || destino == "E" || destino == "U")
                 {
                     try
