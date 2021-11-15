@@ -43,6 +43,8 @@ El programa debe:
 
 - Debe tener control de excepciones en caso de se presenten errores por formato inválido y 
   posibles divisiones por cero.
+//papitas y pizza
+
 
 */
 
