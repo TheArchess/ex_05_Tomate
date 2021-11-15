@@ -87,8 +87,6 @@ namespace ColonizacionMarte
             {
                 Console.Write("\nIngresa el destino para el lanzamiento {0} (A,E,U): ", totalLanzamientos + 1);
                 destino = Console.ReadLine().ToUpper();
-
-
 <<<<<<< HEAD
 
                 //verificamos que el destino sea válido
